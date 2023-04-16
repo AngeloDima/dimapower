@@ -1,18 +1,78 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap');
+
+
+
+
+
+
+
+
+
 .containerSec2{
     width: 100%;
     height: 15vh;
-    background-color: red;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .cardSec2{
-    width: 320px;
+    width: 400px;
     height: 100px;
     border-radius: 15px;
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     box-shadow: 3px 3px 10px 0px #0000003d;
+
+    display: flex;
 }
+
+.SxSec2{
+    width: 100px;
+    height: 100%;
+    /* background-color: red; */
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ballSec2{
+    width: 80px;
+    height: 80px;
+    background-color: #252525;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ballSec2 svg{
+    width: 35px;
+    fill: #ffffff;
+}
+
+
+.DxSec2{
+    width: 300px;
+    height: 100%;
+    /* background-color: rgb(136, 0, 0); */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Economica', sans-serif;
+    font-size: 2rem;
+    color: #5c5c5c;
+}
+
+

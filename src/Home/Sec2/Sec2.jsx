@@ -22,7 +22,7 @@ const Sec2 = () => {
             </div>
 
             <div className="DxSec2">
-                <h4>Full - Stack</h4>
+                <h4>Versatile</h4>
             </div>
 
         </div>
@@ -40,7 +40,7 @@ const Sec2 = () => {
             </div>
 
             <div className="DxSec2">
-                <h4>Front - End</h4>
+                <h4>Competente</h4>
             </div>
 
         </div>
@@ -57,7 +57,7 @@ const Sec2 = () => {
             </div>
 
             <div className="DxSec2">
-                <h4>Back - End</h4>
+                <h4>Flessibile</h4>
             </div>
 
         </div>

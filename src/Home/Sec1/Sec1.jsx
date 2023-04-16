@@ -4,7 +4,7 @@ import './sec1.css';
 const Sec1 = () => {
   return (
     <section className='containerSec1'>
-        
+        <div id="fotoMiaTot"></div>
         <div className="contentSec1">
             <h1>Ehy, sono Angelo</h1>
             <h1 id="importantColor">Web Developer</h1>
@@ -21,6 +21,8 @@ const Sec1 = () => {
                 </div>
             </div>
         </div>
+
+        
     </section>
   )
 }

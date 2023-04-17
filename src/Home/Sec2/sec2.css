@@ -25,9 +25,8 @@
     width: 400px;
     height: 85px;
     border-radius: 10px;
-    background-color: rgb(250, 250, 250);
-    box-shadow: 3px 3px 10px 0px #0000003d;
-
+    background-color: rgb(255 255 255);
+    box-shadow: 10px 10px 20px 0px #00000024;
     display: flex;
 }
 

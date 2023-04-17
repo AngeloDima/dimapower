@@ -1,0 +1,31 @@
+.containerSec4{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentSec4{
+    width: 90%;
+    height: 90%;
+    background-color: aliceblue;
+
+    display: flex;
+}
+
+
+.SxSec4{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+
+
+.DxSec4{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(159, 0, 0);
+}

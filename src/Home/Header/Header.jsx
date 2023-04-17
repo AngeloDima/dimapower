@@ -1,12 +1,29 @@
-import React from 'react'
 import './header.css';
 
+import React, { useState } from 'react'
+
+
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
     <section className='ContainerHeader'>
       <div className="contenteHeader">
-        <div className="SxH"></div>
-        <div className="CenterH">
+        <div className="SxH">
+
+        </div>
+        <div className={`CenterH ${isOpen ? 'open' : ''}`}>
+
+         <button className="hamburger" onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
           <a href="">Home</a>
           <a href="">Blog</a>
           <a href="">PortFolio</a>
@@ -20,4 +37,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

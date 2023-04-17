@@ -18,7 +18,7 @@
 .contentSec4{
     width: 75%;
     height: 70%;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
 
     display: flex;
 }
@@ -76,7 +76,7 @@
 .DxSec4{
     width: 60%;
     height: 100%;
-    /* background-color: rgb(159, 0, 0); */
+    /* background-color: rgb(159, 0, 0);  */
 
     display: flex;
     flex-wrap: wrap;
@@ -105,3 +105,109 @@
 
 
 /* Media screen start */
+
+
+@Media screen and (max-width: 1450px){
+
+    .cardSec4 {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .SxSec4 h2 {
+
+        font-size: 2.6rem;
+
+    }
+
+    .SxSec4 p {
+
+        font-size: 1rem;
+
+    }
+}
+
+
+@Media screen and (max-width: 1200px){
+    .contentSec4 {
+        width: 90%;
+
+    }
+
+}
+
+
+@Media screen and (max-width: 1000px){
+    .contentSec4 {
+        width: 90%;
+
+    }
+
+    .SxSec4 h2 {
+        font-size: 2.1rem;
+    }
+}
+
+
+@Media screen and (max-width: 840px){
+
+    .contentSec4 {
+        width: 95%;
+    }
+}
+
+
+@Media screen and (max-width: 770px){
+
+    .contentSec4 {
+    
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SxSec4 {
+        width: 95%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .DxSec4 {
+        width: 95%;
+    }
+
+    .contentSec4 {
+        height: unset;
+    }
+
+    .containerLinee{
+        display: none;
+    }
+
+    .DxSec4{
+        padding-top: 60px;
+        gap: 40px;
+    }
+
+    .SxSec4 h2 {
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
+    .SxSec4 p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+
+@Media screen and (max-width: 770px){
+
+    .containerSec4{
+        height: unset;
+    }
+}

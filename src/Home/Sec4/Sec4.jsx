@@ -21,18 +21,17 @@ const Sec4 = () => {
             </div>
 
             <div className="DxSec4">
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
-                <div className="cardSec4"></div>
+                <div className="cardSec4">HTML</div>
+                <div className="cardSec4">CSS</div>
+                <div className="cardSec4">SCSS</div>
+                <div className="cardSec4">JAVASCRIPT</div>
+                <div className="cardSec4">PHP</div>
+                <div className="cardSec4">JAVA</div>
+                <div className="cardSec4">REACT.JS</div>
+                <div className="cardSec4">LARAVEL</div>
+                <div className="cardSec4">VUE.JS</div>
+                <div className="cardSec4">MYSQL</div>
+                <div className="cardSec4">GITHUB</div>
             </div>
         </div>
     </section>

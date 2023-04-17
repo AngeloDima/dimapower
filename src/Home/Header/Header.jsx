@@ -4,11 +4,11 @@ import './header.css';
 const Header = () => {
   return (
     <section className='ContainerHeader'>
-        <div className="contentHeader">
-            <a href="">Blog</a>
-            <a href="">PortFolio</a>
-            <a href="">Contact</a>
-        </div>
+      <div className="contenteHeader">
+        <div className="SxH"></div>
+        <div className="CenterH"></div>
+        <div className="DxH"></div>
+      </div>
     </section>
   )
 }

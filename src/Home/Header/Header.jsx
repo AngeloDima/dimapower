@@ -18,6 +18,8 @@ const Header = () => {
             <span></span>
             <span></span>
           </button>
+
+          <div className="SxH"></div>
         <div className={`CenterH ${isOpen ? 'open' : ''}`}>
 
 
@@ -26,6 +28,8 @@ const Header = () => {
           <a href="">Blog</a>
           <a href="">PortFolio</a>
           <a href="">Servizi</a>
+
+
         </div>
         <div className="DxH">
           <a href="">Contact</a>

@@ -14,10 +14,14 @@
 }
 
 
+.hamburger{
+    display: none;
+}
+
 .ContainerHeader{
     width: 100%;
     height: 10vh;
-    background-color: rgb(94, 255, 0);
+    /* background-color: rgb(94, 255, 0); */
 
     display: flex;
     justify-content: center;
@@ -37,14 +41,14 @@
 .SxH{
     width: 15%;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 
 .CenterH{
     width: 65%;
     height: 100%;
-    background-color: rgb(170, 0, 0);
+    /* background-color: rgb(170, 0, 0); */
 
     display: flex;
     align-items: center;
@@ -65,7 +69,7 @@
 .DxH{
     width: 25%;
     height: 100%;
-    background-color: rgb(88, 0, 0);
+    /* background-color: rgb(88, 0, 0); */
     display: flex;
     align-items: center;
 }
@@ -189,13 +193,12 @@
 
 
         
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.25);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.6px);
--webkit-backdrop-filter: blur(11.6px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.6px);
+        -webkit-backdrop-filter: blur(11.6px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
       }
       
       .CenterH.open {
@@ -217,6 +220,37 @@ border: 1px solid rgba(255, 255, 255, 0.3);
         display: none;
       }
       
+
+
+
+
+      .CenterH a {
+        position: relative;
+        text-decoration: none;
+      }
+      
+      .CenterH a::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        background-color: transparent;
+        border-bottom: 2px solid #fec13fcb;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .CenterH a:hover::before {
+        width: calc(140% + 4px);
+        height: calc(170% + 4px);
+        opacity: 1;
+        top: 50%;
+        left: 50%;
+      }
+
 }
 
 

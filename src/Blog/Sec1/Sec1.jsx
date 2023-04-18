@@ -4,7 +4,8 @@ import './sec1.css';
 const Sec1 = () => {
   return (
     <section className='ContainerSec1Blog'>
-        <div className="contentSec1Blog"></div>
+        <div className="BannerBlog1"></div>
+        <div className="ioBlog"></div>
     </section>
   )
 }

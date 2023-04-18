@@ -13,16 +13,14 @@ const Header = () => {
   return (
     <section className='ContainerHeader'>
       <div className="contenteHeader">
-        <div className="SxH">
-
-        </div>
-        <div className={`CenterH ${isOpen ? 'open' : ''}`}>
-
-         <button className="hamburger" onClick={toggleMenu}>
+      <button className="hamburger" onClick={toggleMenu}>
             <span></span>
             <span></span>
             <span></span>
           </button>
+        <div className={`CenterH ${isOpen ? 'open' : ''}`}>
+
+
 
           <a href="">Home</a>
           <a href="">Blog</a>

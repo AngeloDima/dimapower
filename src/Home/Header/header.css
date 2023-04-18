@@ -124,6 +124,7 @@
         position: absolute;
         top: 30px;
         left: 20px;
+        z-index: 1200;
       }
       
       .hamburger span {
@@ -137,6 +138,8 @@
         left: 0;
         transform: rotate(0deg);
         transition: all 0.25s ease-in-out;
+
+        z-index: 1200;
       }
       
       .hamburger span:nth-child(1) {
@@ -174,11 +177,31 @@
         overflow: hidden;
         transition: height 0.5s ease-in-out;
         width: 100%;
+        /* background-color: white; */
+        z-index: 800;
+        gap: 100px;
+        position: relative;
+
+
+
+
+
+
+
+        
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.6px);
+-webkit-backdrop-filter: blur(11.6px);
+border: 1px solid rgba(255, 255, 255, 0.3);
       }
       
       .CenterH.open {
         width: 100%;
         height: 100vh;
+        z-index: 900;
       }
       
       .CenterH a {
@@ -195,3 +218,5 @@
       }
       
 }
+
+

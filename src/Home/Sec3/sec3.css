@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin: 60px 0px;
 }
 
 .contentSec3{
@@ -89,7 +91,7 @@
 
 .social{
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .insta{
@@ -276,6 +278,6 @@
 
 
     .containerSec3 {
-         height: 110vh;
+        margin: 40px 0px 60px 0px;
     }
 }

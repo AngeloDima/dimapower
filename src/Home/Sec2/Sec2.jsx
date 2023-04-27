@@ -63,6 +63,10 @@ const Sec2 = () => {
         </div>
 
     </section>
+
+
+
+
   )
 }
 

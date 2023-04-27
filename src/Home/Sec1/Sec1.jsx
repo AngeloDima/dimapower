@@ -24,6 +24,10 @@ const Sec1 = () => {
 
         
     </section>
+
+
+
+
   )
 }
 

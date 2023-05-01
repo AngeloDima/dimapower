@@ -64,7 +64,9 @@
 }   
 
 
-
+#SpecialContact{
+  color: #252525;
+}
 
 .DxH{
     width: 25%;
@@ -74,19 +76,7 @@
     align-items: center;
 }
 
-.DxH a {
-    text-decoration: none;
-    color: #222222be;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
-    margin-right: 100px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 15px 20px;
-    box-shadow: 5px 5px 6px 0px #0000001f;
-    border-radius: 10px;
-    border: 1px solid #0000000f;
-}
+
 
 
 @Media screen and (max-width: 1000px){

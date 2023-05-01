@@ -28,11 +28,12 @@ const Header = () => {
           <a href="/blog">Blog</a>
           <a href="">PortFolio</a>
           <a href="">Servizi</a>
+          <a href="" id="SpecialContact">Contact</a>
+
 
 
         </div>
         <div className="DxH">
-          <a href="">Contact</a>
         </div>
       </div>
     </section>

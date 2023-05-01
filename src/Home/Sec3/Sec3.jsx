@@ -12,7 +12,7 @@ const Sec3 = () => {
             </div>
             <div className="DxSec3">
               <div className="contentDx3">
-                <h3>Hai Bisogno Di un Sito Creativo?</h3>
+                <h3><span id="provaGiallo">Hai Bisogno </span> di un Sito Creativo?</h3>
                 <h3>Posso Aiutarti!</h3>
                 <p>Un web developer è il mago della tecnologia che trasforma le idee in realtà. Attraverso la sua conoscenza di linguaggi di programmazione come HTML, CSS e JavaScript, un web developer crea siti web funzionali, sicuri e accattivanti. Con la sua capacità di gestire database, progettare interfacce utente intuitive e ottimizzare le prestazioni del sito web, un web developer garantisce un'esperienza utente coinvolgente e soddisfacente.</p>
                 
